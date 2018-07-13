@@ -132,6 +132,11 @@ public class Contestant {
         this.tribeName = tribeName;
     }
 
+    public Integer getStrengthAndIntelligence()
+    {
+        return this.strength + this.intellegence;
+    }
+
     @Override
     public String toString() {
         return "Contestant{" +
